@@ -38,6 +38,13 @@ Lista 3 = Funcionários que não tem carro
 # lista2 = list(tem_carro & turno_dia)
 # lista3 = list(funcionarios - tem_carro)
 
+
+#Solução com funções de Sets (FUNCIONA COM LISTAS E SETS)
+
+# lista1 = set(tem_carro).intersection(turno_noite)
+# lista2 = set(tem_carro).intersection(turno_dia)
+# lista3 = set(funcionarios).difference(tem_carro)
+
 print('Tem carro e trabalha a noite: ', lista1)
 print('Tem carro e trabalha de dia: ', lista2)
 print('Não tem carro: ', lista3)
