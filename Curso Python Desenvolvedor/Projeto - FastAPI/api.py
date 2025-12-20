@@ -3,7 +3,7 @@ from routes.jogador import jogador_router
 from fastapi.middleware.cors import CORSMiddleware
 
 cliente_app = [
-    "http://localhost:3000"
+    "http://localhost:5173" # React default port
 ]
 
 app = FastAPI()
